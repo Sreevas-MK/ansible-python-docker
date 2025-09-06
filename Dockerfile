@@ -6,7 +6,7 @@ RUN mkdir -p /var/flaskapp
 
 WORKDIR /var/flaskapp
 
-COPY ..
+COPY . .
 
 RUN pip install -r requirements.txt
 
